@@ -12,6 +12,8 @@
       font-family: Arial;
       padding: 10px;
       background: #f1f1f1;
+      box-sizing: border-box;
+
     }
 
     #main-doc {
@@ -60,6 +62,7 @@
     .leftcolumn {
       float: left;
       width: 22%;
+
     }
 
     /* Right column */
@@ -69,6 +72,10 @@
       background-color: #f1f1f1;
       padding-left: 20px;
     }
+
+      .row {
+        display: flex;
+      }
 
     /* Add a card effect for articles */
     .card {
@@ -155,18 +162,13 @@
           <a href="https://www.facebook.com/salehe.rehani">Facebook</a>
           </div>
       </div>
-  </div>
 
-  </div>
-  <div>
       <div class="rightcolumn">
         <main id="main-doc">
-
-
           <div class="card">
             <section id="Skills_Training"class="main-section">
               <header>Skills Training</header>
-              <code></code><br>
+              <code></code>
 
                         <img id="header-img" style="height:150%;width:90%;" src="https://dsgmedia.blob.core.windows.net/pub/2016/07/2-basketball-dribbling-drills1.jpg">
                         <h5>The importance of basketball skills training</h5>
@@ -219,7 +221,7 @@
           <div class="card">
             <section id="Athletic_Training" class="main-section">
               <header>Athletic Training</header>
-              <code></code><br>
+              <code></code>
               <img id="header-img" style="height:150%;width:90%;" src="https://www.usab.com/-/media/ee98852b5d8145808f7f5ad3a9532091.jpg?h=600&iar=0&w=800&hash=AFEAED9E04B50530EA49F3494EBBB5B4">
 
                           <h5>The importance of athletic training in basketball</h5>
@@ -273,7 +275,7 @@
           <div class="card">
             <section id="The_Basketball_Mindset" class="main-section">
               <header>The Basketball Mindset</header>
-              <code></code><br>
+              <code></code>
               <img id="header-img" style="height:150%;width:90%;" src="https://mybasketballteacher.com/wp-content/uploads/2021/01/Meditation-3-1.jpg">
               <p> As with other sports and high-energy activities, basketball requires a high amount of focus on things that take place in very short amounts of time. Decisions have to be made left and right, and the flow of the game is rarely interrupted. That kind of demand for attention can tire out the mind pretty quickly if it’s not exercised the same way as your muscles. Mindfulness is the habit of noticing and understanding our thoughts, feelings, and emotions in real-time. It requires paying deep attention to what is occurring in the present, as opposed to allowing yourself to worry about the past or analyzing what’s to come. Further, it’s accepting the present as it is without trying to force it into a mold of what you think it “should” be -- accepting each moment as it comes and embracing what that means to you. <br>
 
@@ -297,12 +299,8 @@
           <div class="card">
             <section id="Planning_For_The_Future" class="main-section">
               <header>Planning For The Future</header>
-              <code></code><br>
-              <img id="header-img" style="height:150%;width:90%;" src="https://assetsw.bus.com/content/uploads/2019/10/03150131/basketball-coach-guide-planning-away-games1.jpg">
-
-
-
-
+              <code></code>
+              <img id="header-img" style="height:90%;width:90%;" src="https://assetsw.bus.com/content/uploads/2019/10/03150131/basketball-coach-guide-planning-away-games1.jpg">
 <p>
     After ample rest, players need to formally evaluate their strengths and weaknesses. This step is vital to success; yet rarely done <br><br>.
     Players need to clearly establish what they do well and what needs improvement. This can only be done effectively through a comprehensive evaluation by both player and coach. <br><br>
@@ -345,7 +343,7 @@
       <div class="card">
         <section id="Personal_Training" class="main-section">
           <header id="service-label">Personal Training</header>
-          <h4>Interested in personal training? Fill out the form below.<h4>
+          <h6>Interested in personal training? Fill out the form below.<h6>
           <code></code>
           <form id="survey-form">
                 <label id="name-label">Name:</label>
@@ -397,6 +395,8 @@
     <div class="footer">
       <h6>© All S.T.A.R Basketball</h6>
     </div>
+</div>
+</div>
 
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
